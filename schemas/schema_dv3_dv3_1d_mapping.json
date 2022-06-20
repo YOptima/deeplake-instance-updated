@@ -1,0 +1,17 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "Dimension",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Dimension_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Dimension_Value",
+    "type": "STRING"
+  }
+]

@@ -1,0 +1,7 @@
+0 * * * * cd /home/yoptima/DeepVu/deeplake/ && run-one python3 export_api.py --query_id 723172431 && run-one python3 export_api.py --query_id 729314814 && run-one python3 export_api.py --query_id 734229253 &&  run-one python3 export_api.py --query_id 738307542 && run-one python3 gcs_main_load.py 723172431 729314814 734229253 738307542 >> /home/yoptima/DeepVu/deeplake/cronjob.log 2>&1
+
+30 * * * * cd /home/yoptima/DeepVu/deeplake/ && run-one python3 export_api.py --query_id 741738850 && run-one python3 export_api.py --query_id 741738532 && run-one python3 export_api.py --query_id 741736075 &&  run-one python3 export_api.py --query_id 741738871 && run-one python3 export_api.py --query_id 741737075 && run-one python3 export_api.py --query_id 740201148 && run-one python3 gcs_mapping_load.py 741738850 741738532 741736075 741738871 741737075 740201148 >> /home/yoptima/DeepVu/deeplake/cronjob.log 2>&1
+
+40 * * * * cd /home/yoptima/DeepVu/deeplake/ && run-one python3 export_api.py --query_id 742726654 && run-one python3 export_api.py --query_id 743083542 && run-one python3 export_api.py --query_id 743089227 && run-one python3 export_api.py --query_id 744073541 &&  run-one python3 export_api.py --query_id 742864811 && run-one python3 export_api.py --query_id 743098055 && run-one python3 export_api.py --query_id 743099527 && run-one python3 gcs_isolation_load.py 742726654 743083542 743089227 744073541 742864811 743098055 743099527 >> /home/yoptima/DeepVu/deeplake/cronjob.log 2>&1
+
+55 6-23 * * * cd /home/yoptima/DeepVu/deeplake/ && python3 instance_stop.py

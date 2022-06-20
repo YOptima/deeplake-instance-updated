@@ -1,0 +1,122 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "Order_ID",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Advertiser",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Advertiser_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "App_URL",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "App_URL_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Campaign",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Campaign_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Creative",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Creative_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Creative_Size",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Creative_Type",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Date",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Exchange",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Insertion_Order",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Insertion_Order_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Line_Item_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Line_Item_Type",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Floodlight_Activity_Name",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Floodlight_Activity_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Total_Conversions",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Post_Click_Conversions",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Post_View_Conversions",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "CM_Post_Click_Revenue",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "CM_Post_View_Revenue",
+    "type": "FLOAT"
+  }
+]

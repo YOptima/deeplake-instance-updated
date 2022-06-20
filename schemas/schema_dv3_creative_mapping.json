@@ -1,0 +1,27 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "Creative",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Creative_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Creative_Type",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Creative_Size",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "CM_Placement_ID",
+    "type": "INTEGER"
+  }
+]

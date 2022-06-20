@@ -1,0 +1,12 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "App_URL",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "App_URL_ID",
+    "type": "INTEGER"
+  }
+]

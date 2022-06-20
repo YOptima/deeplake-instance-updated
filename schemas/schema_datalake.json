@@ -1,0 +1,202 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "Advertiser_Currency",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Date",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Line_Item_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Creative_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Floodlight_Activity_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "City_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "DMA_Code",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Device_Type",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Device_Model",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Device_Make",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Browser",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Environment",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ISP_or_Carrier_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Operating_System",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "App_URL_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Exchange_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Inventory_Source_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Ad_Position",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Position_in_Content",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Video_Player_Size",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Impressions",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Clicks",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Total_Conversions",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Post_Click_Conversions",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Revenue_Adv_Currency",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Media_Cost_Advertiser_Currency",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Total_Media_Cost_Advertiser_Currency",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Active_View_Measurable_Impressions",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Active_View_Viewable_Impressions",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "First_Quartile_Views_Video",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Midpoint_Views_Video",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Third_Quartile_Views_Video",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Complete_Views_Video",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Youtube_Views",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Gmail_Total_Conversions",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Gmail_Post_Click_Conversions",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Post_View_Conversions_TTC1H",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Advertiser_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Campaign_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Insertion_Order_ID",
+    "type": "INTEGER"
+  }
+]

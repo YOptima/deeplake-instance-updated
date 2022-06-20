@@ -1,0 +1,58 @@
+{
+  "kind": "doubleclickbidmanager#query",
+  "queryId": "871849516",
+  "metadata": {
+    "title": "DeepLake_PixelReport_OrderId",
+    "dataRange": "LAST_7_DAYS",
+    "format": "CSV",
+    "running": false,
+    "googleCloudStoragePathForLatestReport": "https://storage.googleapis.com/dfa_-b8d7cf41be5eb53420e455d913fdfab19a164cc3/DeepLake_PixelReport_OrderId_-_785825187_20220106_222530_871849516_3554519644.csv?GoogleAccessId=573983893819-acfst5i6ba5a02rsdrjlpcfbq9k169sm@developer.gserviceaccount.com&Expires=1646718358&Signature=hYRKQLUaa%2FRymXBIkt0SVTL%2FwLAp%2F2HeANTlD0AIjfVtiVWb2TM%2B8LG8wwL3gx3F54j4BxdExm65THl%2FVo%2FnPnjuz3Tu28J4HRK39UrJxCoN%2BIQnieEdsCHi8%2Fy%2B33HoJndrYm1GfQ%2F6M%2BjA5u7gnmfQbCwJbx%2BhWZSHP0loChg%3D",
+    "latestReportRunTimeMs": "1641499424032",
+    "sendNotification": false
+  },
+  "params": {
+    "type": "TYPE_ORDER_ID",
+    "groupBys": [
+      "FILTER_ORDER_ID",
+      "FILTER_ADVERTISER_NAME",
+      "FILTER_ADVERTISER",
+      "FILTER_APP_URL",
+      "FILTER_SITE_ID",
+      "FILTER_MEDIA_PLAN_NAME",
+      "FILTER_MEDIA_PLAN",
+      "FILTER_CREATIVE",
+      "FILTER_CREATIVE_ID",
+      "FILTER_CREATIVE_SIZE",
+      "FILTER_CREATIVE_TYPE",
+      "FILTER_DATE",
+      "FILTER_EXCHANGE",
+      "FILTER_INSERTION_ORDER_NAME",
+      "FILTER_INSERTION_ORDER",
+      "FILTER_LINE_ITEM",
+      "FILTER_LINE_ITEM_TYPE",
+      "FILTER_FLOODLIGHT_ACTIVITY",
+      "FILTER_FLOODLIGHT_ACTIVITY_ID"
+    ],
+    "filters": [
+      {
+      }
+    ],
+    "metrics": [
+      "METRIC_TOTAL_CONVERSIONS",
+      "METRIC_LAST_CLICKS",
+      "METRIC_LAST_IMPRESSIONS",
+      "METRIC_CM360_POST_CLICK_REVENUE",
+      "METRIC_CM360_POST_VIEW_REVENUE"
+    ],
+    "options": {
+      "includeOnlyTargetedUserLists": false
+    }
+  },
+  "schedule": {
+    "frequency": "DAILY",
+    "startTimeMs": "1604347200000",
+    "endTimeMs": "1604347200000",
+    "nextRunTimezoneCode": "Asia/Dubai"
+  }
+}
+

@@ -1,0 +1,59 @@
+{
+  "kind": "doubleclickbidmanager#query",
+  "queryId": "760775337",
+  "metadata": {
+    "title": "DeepLake YouTube Standard Report - YT Device type",
+    "dataRange": "LAST_7_DAYS",
+    "format": "CSV",
+    "running": false,
+    "googleCloudStoragePathForLatestReport": "https://storage.googleapis.com/dfa_-b8d7cf41be5eb53420e455d913fdfab19a164cc3/DeepLake_YouTube_Standard_Report_-_YT_Device_type_PGB_Seat_20211224_213214_760775337_3540407553.csv?GoogleAccessId=573983893819-acfst5i6ba5a02rsdrjlpcfbq9k169sm@developer.gserviceaccount.com&Expires=1645582005&Signature=Pr8jRWQHiEF0Wrl0v2EibCFqMVVBPTgkF2JbEDgbJgCozIu1KFj5EGDCg75yYL2m0JMZItErk5YJ8gqmuChuwFUP4Veu5yzsInDXG2LfLOXFB3bOh3ZvyPg2aEnxug5I3LNUIw3ATu5tFSakWxYfc59OYA1LsVoKSxcIPzZuBBM%3D",
+    "latestReportRunTimeMs": "1640376153395",
+    "sendNotification": false
+  },
+  "params": {
+    "type": "TYPE_TRUEVIEW",
+    "groupBys": [
+      "FILTER_ADVERTISER_CURRENCY",
+      "FILTER_DATE",
+      "FILTER_ADVERTISER",
+      "FILTER_TRUEVIEW_AD_GROUP_ID",
+      "FILTER_INSERTION_ORDER",
+      "FILTER_LINE_ITEM",
+      "FILTER_DEVICE_TYPE"
+    ],
+    "filters": [
+      {
+      }
+    ],
+    "metrics": [
+      "METRIC_CLICKS",
+      "METRIC_RICH_MEDIA_VIDEO_FIRST_QUARTILE_COMPLETES",
+      "METRIC_RICH_MEDIA_VIDEO_MIDPOINTS",
+      "METRIC_RICH_MEDIA_VIDEO_THIRD_QUARTILE_COMPLETES",
+      "METRIC_RICH_MEDIA_VIDEO_COMPLETIONS",
+      "METRIC_IMPRESSIONS",
+      "METRIC_MEDIA_COST_ADVERTISER",
+      "METRIC_REVENUE_ADVERTISER",
+      "METRIC_TOTAL_MEDIA_COST_ADVERTISER",
+      "METRIC_TRACKED_ADS",
+      "METRIC_TRUEVIEW_VIEWS",
+      "METRIC_ACTIVE_VIEW_MEASURABLE_IMPRESSIONS",
+      "METRIC_ACTIVE_VIEW_VIEWABLE_IMPRESSIONS",
+      "METRIC_TRUEVIEW_EARNED_LIKES",
+      "METRIC_TRUEVIEW_EARNED_PLAYLIST_ADDITIONS",
+      "METRIC_TRUEVIEW_EARNED_SHARES",
+      "METRIC_TRUEVIEW_EARNED_SUBSCRIBERS",
+      "METRIC_TRUEVIEW_EARNED_VIEWS",
+      "METRIC_TRUEVIEW_ENGAGEMENTS"
+    ],
+    "options": {
+      "includeOnlyTargetedUserLists": false
+    }
+  },
+  "schedule": {
+    "frequency": "DAILY",
+    "startTimeMs": "1607630400000",
+    "endTimeMs": "1607630400000",
+    "nextRunTimezoneCode": "Asia/Dubai"
+  }
+}

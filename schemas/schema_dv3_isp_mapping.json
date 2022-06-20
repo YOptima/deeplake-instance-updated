@@ -1,0 +1,12 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "ISP_or_Carrier",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "ISP_or_Carrier_ID",
+    "type": "INTEGER"
+  }
+]

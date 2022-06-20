@@ -1,0 +1,76 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "Advertiser_Currency",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Date",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Advertiser_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "YouTube_Ad_Group_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Insertion_Order_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Line_Item_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "City",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Region",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Impressions",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Media_Cost_Advertiser_Currency",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Revenue_Adv_Currency",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Total_Media_Cost_Advertiser_Currency",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Tracked_Ads",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "YouTube_Views",
+    "type": "INTEGER"
+  },
+  {
+    "name": "Campaign_ID",
+    "type": "INTEGER"
+  }
+]

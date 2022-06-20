@@ -1,0 +1,32 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "Exchange_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Exchange",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Exchange_Code",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Inventory_Source",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Inventory_Source_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Inventory_Source_ID_external",
+    "type": "STRING"
+  }
+]

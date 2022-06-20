@@ -1,0 +1,48 @@
+{
+  "kind": "doubleclickbidmanager#query",
+  "queryId": "871848729",
+  "metadata": {
+    "title": "DeepLake YouTube Standard Report - YT City",
+    "dataRange": "LAST_7_DAYS",
+    "format": "CSV",
+    "running": false,
+    "googleCloudStoragePathForLatestReport": "https://storage.googleapis.com/dfa_-b8d7cf41be5eb53420e455d913fdfab19a164cc3/DeepLake_YouTube_Standard_Report_-_YT_City_785825187_20220106_221627_871848729_3554520704.csv?GoogleAccessId=573983893819-acfst5i6ba5a02rsdrjlpcfbq9k169sm@developer.gserviceaccount.com&Expires=1646718029&Signature=ehhaG5xFCjDBm89j2eyDKogtaJ3fiCL2x6UXdTUy8rileXp8FZWlQRIadS00G5iiY0TH0KFajnee2AAR6K620hHp1PBeQmABr%2F9GOg7o5JUgFnceoqSznJ6scM%2FpUl1cnan5HPvbN2P1MK9oU4MCRX9eNARoE5OvI1hRBrU2QLc%3D",
+    "latestReportRunTimeMs": "1641499434572",
+    "sendNotification": false
+  },
+  "params": {
+    "type": "TYPE_TRUEVIEW",
+    "groupBys": [
+      "FILTER_ADVERTISER_CURRENCY",
+      "FILTER_DATE",
+      "FILTER_ADVERTISER",
+      "FILTER_TRUEVIEW_AD_GROUP_ID",
+      "FILTER_INSERTION_ORDER",
+      "FILTER_LINE_ITEM",
+      "FILTER_TRUEVIEW_CITY",
+      "FILTER_TRUEVIEW_REGION_NAME"
+    ],
+    "filters": [
+      {
+      }
+    ],
+    "metrics": [
+      "METRIC_IMPRESSIONS",
+      "METRIC_MEDIA_COST_ADVERTISER",
+      "METRIC_REVENUE_ADVERTISER",
+      "METRIC_TOTAL_MEDIA_COST_ADVERTISER",
+      "METRIC_TRACKED_ADS",
+      "METRIC_TRUEVIEW_VIEWS"
+    ],
+    "options": {
+      "includeOnlyTargetedUserLists": false
+    }
+  },
+  "schedule": {
+    "frequency": "DAILY",
+    "startTimeMs": "1607630400000",
+    "endTimeMs": "1607630400000",
+    "nextRunTimezoneCode": "Asia/Dubai"
+  }
+}
+

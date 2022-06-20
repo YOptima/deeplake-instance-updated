@@ -1,0 +1,4 @@
+__pycache__
+*.csv
+dv3_token.pkl
+client_secrets.json

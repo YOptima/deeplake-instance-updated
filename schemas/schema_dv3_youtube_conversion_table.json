@@ -1,0 +1,57 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "Advertiser_Currency",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Conversion_type",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Advertiser_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Insertion_Order_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Line_Item_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Date",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "YouTube_Ad_Group",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "YouTube_Ad_Group_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Conversions",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "View_through_Conversion",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Total_Conversions_Value_Adv_Currency",
+    "type": "FLOAT"
+  }
+]

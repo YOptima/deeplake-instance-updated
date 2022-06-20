@@ -1,0 +1,54 @@
+{
+  "kind": "doubleclickbidmanager#query",
+  "queryId": "871848367",
+  "metadata": {
+    "title": "DeepLake YouTube Standard Report - Interest",
+    "dataRange": "LAST_7_DAYS",
+    "format": "CSV",
+    "running": false,
+    "googleCloudStoragePathForLatestReport": "https://storage.googleapis.com/dfa_-b8d7cf41be5eb53420e455d913fdfab19a164cc3/DeepLake_YouTube_Standard_Report_-_Interest_785825187_Seat_20220106_221324_871848367_3554520544.csv?GoogleAccessId=573983893819-acfst5i6ba5a02rsdrjlpcfbq9k169sm@developer.gserviceaccount.com&Expires=1646718189&Signature=t5m8CfffjO7HnCbDMveZKGgY6W0gx7vgrAxHkvce0gjffH2%2BODMwvUuHmzo47KDLCenry1D4lb2IPIQ5dMg35GJIG5hR58jOp2z3nu22WpevmLDG5tiAZhbBMHAqW3Svr3Nv0N38pSj846vAFnUUaW%2Bw3pBi18RuR2GP9Gj0RhU%3D",
+    "latestReportRunTimeMs": "1641499434572",
+    "sendNotification": false
+  },
+  "params": {
+    "type": "TYPE_TRUEVIEW",
+    "groupBys": [
+      "FILTER_ADVERTISER_CURRENCY",
+      "FILTER_DATE",
+      "FILTER_ADVERTISER",
+      "FILTER_TRUEVIEW_AD_GROUP_ID",
+      "FILTER_INSERTION_ORDER",
+      "FILTER_LINE_ITEM",
+      "FILTER_TRUEVIEW_INTEREST"
+    ],
+    "filters": [
+      {
+      }
+    ],
+    "metrics": [
+      "METRIC_CLICKS",
+      "METRIC_RICH_MEDIA_VIDEO_FIRST_QUARTILE_COMPLETES",
+      "METRIC_RICH_MEDIA_VIDEO_MIDPOINTS",
+      "METRIC_RICH_MEDIA_VIDEO_THIRD_QUARTILE_COMPLETES",
+      "METRIC_RICH_MEDIA_VIDEO_COMPLETIONS",
+      "METRIC_IMPRESSIONS",
+      "METRIC_MEDIA_COST_ADVERTISER",
+      "METRIC_REVENUE_ADVERTISER",
+      "METRIC_TOTAL_MEDIA_COST_ADVERTISER",
+      "METRIC_TRACKED_ADS",
+      "METRIC_TRUEVIEW_VIEWS",
+      "METRIC_CARD_CLICKS",
+      "METRIC_TRUEVIEW_ENGAGEMENTS"
+    ],
+    "options": {
+      "includeOnlyTargetedUserLists": false
+    }
+  },
+  "schedule": {
+    "frequency": "DAILY",
+    "startTimeMs": "1607630400000",
+    "endTimeMs": "1607630400000",
+    "nextRunTimezoneCode": "Asia/Dubai"
+  }
+}
+

@@ -1,0 +1,77 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "Advertiser_Currency",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Date",
+    "type": "DATE"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Line_Item_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Floodlight_Activity_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Insertion_Order_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Advertiser_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Campaign_ID",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Time_of_Day",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Line_Item_Daily_Frequency",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Insertion_Order_Daily_Frequency",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Line_Item_Lifetime_Frequency",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Post_Click_Conversions",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Post_View_Conversions_TTC1H",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Total_Conversions_TTC1H",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Impressions",
+    "type": "INTEGER"
+  }
+]

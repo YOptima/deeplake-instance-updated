@@ -1,0 +1,44 @@
+{
+  "kind": "doubleclickbidmanager#query",
+  "queryId": "844090903",
+  "metadata": {
+    "title": "DeepLake - Youtube Conversion Report",
+    "dataRange": "LAST_7_DAYS",
+    "format": "CSV",
+    "running": false,
+    "googleCloudStoragePathForLatestReport": "https://storage.googleapis.com/dfa_-b8d7cf41be5eb53420e455d913fdfab19a164cc3/DeepLake_-_Youtube_Conversion_Report_-_Halodoc_20220106_221624_844090903_3554520529.csv?GoogleAccessId=573983893819-acfst5i6ba5a02rsdrjlpcfbq9k169sm@developer.gserviceaccount.com&Expires=1646718074&Signature=kRC4N8Asvl90ggRNZxMoNhX5RlHLlwfVCwtN8zvS0lmAURwnq45Fj%2BymOzugjfSMpYqHvPCREpS8X%2BBCFM8iFwUZwCOUtT%2BOPE%2BtbXxbDPhiG9%2BGhMz3tIgMpIQd7t6QKkVizMUmJKpnSF3zeXK3y0c%2F1ZWCg8BKm%2B1lugsxkco%3D",
+    "latestReportRunTimeMs": "1641499434021",
+    "sendNotification": false
+  },
+  "params": {
+    "type": "TYPE_TRUEVIEW",
+    "groupBys": [
+      "FILTER_ADVERTISER_CURRENCY",
+      "FILTER_DATE",
+      "FILTER_ADVERTISER",
+      "FILTER_TRUEVIEW_AD_GROUP_ID",
+      "FILTER_TRUEVIEW_CONVERSION_TYPE",
+      "FILTER_INSERTION_ORDER",
+      "FILTER_LINE_ITEM"
+    ],
+    "filters": [
+      {
+      }
+    ],
+    "metrics": [
+      "METRIC_TRUEVIEW_CONVERSION_MANY_PER_VIEW",
+      "METRIC_TRUEVIEW_VIEW_THROUGH_CONVERSION",
+      "METRIC_TRUEVIEW_TOTAL_CONVERSION_VALUES_ADVERTISER"
+    ],
+    "options": {
+      "includeOnlyTargetedUserLists": false
+    }
+  },
+  "schedule": {
+    "frequency": "DAILY",
+    "startTimeMs": "1607630400000",
+    "endTimeMs": "1607630400000",
+    "nextRunTimezoneCode": "Asia/Dubai"
+  }
+}
+
